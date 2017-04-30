@@ -6,6 +6,7 @@ body {
   width: 1096px;
 }
 header {
+  /*Make flex, fixed position, & z-index, so can overlay the background image*/
   display: flex;
   background-color: cadetblue;
   color: white;
@@ -39,6 +40,7 @@ header li a {
   color: white;
 }
 .main {
+  /*Position releative to push behind header.*/
   display: flex;
   background-image: url("../resources/images/glasses-bg.png");
   background-repeat: no-repeat;
@@ -52,13 +54,72 @@ header li a {
   margin-top: 10rem;
   left: 50%;
   height: 6rem;
-  width: 31rem;
+  width: 32rem;
   background-color: white;
 }
 .main_text p {
-  margin: 1.5 5.0 1.5 5.0rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
   line-height: 1.2;
+}
+.services {
+  display: flex;
+  margin-top: 5rem;
+  height: 8rem;
+  justify-content: space-around;
+}
+.services .exam img {
+  margin-top: 3rem;
+  width: 3.5rem;
+}
+.services .fit img {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 5rem;
+}
+.services .delivery img {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 5rem;
+}
+.exam p {
+  font-size: 1.2rem;
+  line-height: .75rem;
+  text-align: center;
+}
+.fit p {
+  font-size: 1.2rem;
+  line-height: .75rem;
+  text-align: center;
+}
+.delivery p {
+  font-size: 1.2rem;
+  line-height: .75rem;
+  text-align: center;
+}
+.vision {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+}
+.vision .philosophy h3 {
+  margin-top: 3rem;
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.vision .appointments h3 {
+  margin-top: 3rem;
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
 }
