@@ -1,0 +1,64 @@
+html {
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+body {
+  width: 1096px;
+}
+header {
+  display: flex;
+  background-color: cadetblue;
+  color: white;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  width: 960px;
+  position: fixed;
+  z-index: 5;
+}
+header img {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+header h3 {
+  margin-top: 1rem;
+}
+header nav {
+  position: relative;
+  margin-left: 20rem;
+}
+header li {
+  list-style: none;
+  display: inline;
+}
+header li a {
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  color: white;
+}
+.main {
+  display: flex;
+  background-image: url("../resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  position: relative;
+}
+.main_text {
+  /* make relative position so we can move and float on top of image */
+  position: relative;
+  margin-top: 10rem;
+  left: 50%;
+  height: 6rem;
+  width: 31rem;
+  background-color: white;
+}
+.main_text p {
+  margin: 1.5 5.0 1.5 5.0rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
