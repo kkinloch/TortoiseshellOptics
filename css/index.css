@@ -189,6 +189,12 @@ footer h3 {
     text-transform: uppercase;
     font-size: 1.33rem;
   }
+  .vision .philosophy {
+    width: 45%;
+  }
+  .vision .appointments {
+    width: 45%;
+  }
 }
 @media only screen and (max-width: 450px) {
   body {
@@ -227,5 +233,11 @@ footer h3 {
   }
   .vision {
     flex-wrap: wrap;
+  }
+  .vision .philosophy {
+    width: 75%;
+  }
+  .vision .appointments {
+    width: 75%;
   }
 }
