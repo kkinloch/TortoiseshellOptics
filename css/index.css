@@ -157,8 +157,7 @@ footer img {
 footer h3 {
   margin-left: 1rem;
 }
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 700px) {
   body {
     width: 100%;
   }
@@ -191,8 +190,7 @@ footer h3 {
     font-size: 1.33rem;
   }
 }
-
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 450px) {
   body {
     width: 100%;
   }
