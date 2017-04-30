@@ -157,3 +157,77 @@ footer img {
 footer h3 {
   margin-left: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  header {
+    margin-top: 0rem;
+    margin-left: 0rem;
+    width: 100%;
+  }
+  header h3 {
+    color: red;
+  }
+  .main {
+    height: 22rem;
+    background-image: cover;
+  }
+  .main_text {
+    position: relative;
+    margin-top: 5rem;
+    left: 40%;
+    height: 4rem;
+    width: 27rem;
+  }
+  .main p {
+    color: red;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    width: 100%;
+  }
+  header {
+    margin-top: 0rem;
+    margin-left: 0rem;
+    width: 100%;
+  }
+  header h3 {
+    color: blue;
+  }
+  .main {
+    height: 17rem;
+    background-size: cover;
+  }
+  .main_text {
+    position: relative;
+    margin-top: 5rem;
+    left: 40%;
+    height: 3rem;
+    width: 20rem;
+  }
+  .main p {
+    color: blue;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    font-size: .75rem;
+  }
+  .services {
+    flex-wrap: wrap;
+  }
+  .vision {
+    flex-wrap: wrap;
+  }
+}
