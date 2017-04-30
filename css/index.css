@@ -102,24 +102,41 @@ header li a {
   line-height: .75rem;
   text-align: center;
 }
+/* Philosophy & Appointment Section */
 .vision {
   display: flex;
-  width: 35%;
   justify-content: space-around;
+  margin-top: 6rem;
+}
+.vision .philosophy {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
 }
 .vision .philosophy h3 {
-  margin-top: 3rem;
-  width: 10rem;
+  display: flex;
   background-color: cadetblue;
+  height: 3rem;
+  width: 15rem;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+  text-indent: 1.25rem;
+  align-items: center;
+}
+.vision .appointments {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
 }
 .vision .appointments h3 {
-  margin-top: 3rem;
-  width: 10rem;
+  display: flex;
   background-color: cadetblue;
+  height: 3rem;
+  width: 15rem;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+  text-indent: 1.25rem;
+  align-items: center;
 }
