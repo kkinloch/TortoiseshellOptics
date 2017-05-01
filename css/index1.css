@@ -12,25 +12,35 @@ header {
   display: flex;
   background-color: cadetblue;
   color: white;
+  margin-top: 16px;
   margin-top: 1rem;
+  margin-left: 64px;
   margin-left: 4rem;
   width: 960px;
   position: fixed;
   z-index: 5;
 }
 header img {
+  margin-top: 16px;
   margin-top: 1rem;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
+  margin-left: 32px;
   margin-left: 2rem;
+  margin-right: 16px;
   margin-right: 1rem;
+  height: 24px;
   height: 1.5rem;
 }
 header h3 {
+  margin-top: 16px;
   margin-top: 1rem;
 }
 header nav {
   position: relative;
+  margin-left: 320px;
   margin-left: 20rem;
+  margin-top: 16px;
   margin-top: 1rem;
 }
 header li {
@@ -39,9 +49,14 @@ header li {
 }
 header li a {
   text-decoration: none;
+  margin-top: 24px;
   margin-top: 1.5rem;
+  margin-right: 32px;
   margin-right: 2rem;
   color: white;
+}
+header nav select {
+  display: none;
 }
 .main {
   /*Position releative to push behind header.*/
@@ -51,24 +66,33 @@ header li a {
   background-image: url("../resources/images/glasses-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 480px;
   height: 30rem;
   position: relative;
 }
 .main_text {
   /* make relative position so we can move and float on top of image */
   position: relative;
+  margin-top: 160px;
   margin-top: 10rem;
   left: 50%;
+  height: 96px;
   height: 6rem;
+  width: 512px;
   width: 32rem;
   background-color: white;
 }
 .main_text p {
+  margin-left: 80px;
   margin-left: 5rem;
+  margin-right: 80px;
   margin-right: 5rem;
+  margin-top: 24px;
   margin-top: 1.5rem;
+  margin-bottom: 24px;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
+  font-size: 28px;
   font-size: 1.75rem;
   font-weight: bold;
   line-height: 1.2;
@@ -77,39 +101,59 @@ header li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 80px;
   margin-top: 5rem;
+  height: 128px;
   height: 8rem;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .services .exam img {
+  margin-top: 48px;
   margin-top: 3rem;
+  width: 56px;
   width: 3.5rem;
 }
 .services .fit img {
+  margin-top: 48px;
   margin-top: 3rem;
+  margin-bottom: 32px;
   margin-bottom: 2rem;
+  width: 80px;
   width: 5rem;
 }
 .services .delivery img {
+  margin-top: 48px;
   margin-top: 3rem;
+  margin-bottom: 32px;
   margin-bottom: 2rem;
+  width: 80px;
   width: 5rem;
 }
 .exam p {
+  margin-top: 24px;
   margin-top: 1.5rem;
+  font-size: 19.2px;
   font-size: 1.2rem;
+  line-height: 12px;
   line-height: .75rem;
   text-align: center;
 }
 .fit p {
+  margin-top: 24px;
   margin-top: 1.5rem;
+  font-size: 19.2px;
   font-size: 1.2rem;
+  line-height: 12px;
   line-height: .75rem;
   text-align: center;
 }
 .delivery p {
+  margin-top: 24px;
   margin-top: 1.5rem;
+  font-size: 19.2px;
   font-size: 1.2rem;
+  line-height: 12px;
   line-height: .75rem;
   text-align: center;
 }
@@ -118,14 +162,19 @@ header li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 112px;
   margin-top: 7rem;
 }
 .vision .philosophy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 35%;
 }
 .vision .philosophy h3 {
@@ -133,19 +182,27 @@ header li a {
   display: -ms-flexbox;
   display: flex;
   background-color: cadetblue;
+  height: 48px;
   height: 3rem;
+  width: 240px;
   width: 15rem;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+  text-indent: 20px;
   text-indent: 1.25rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .vision .appointments {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 35%;
 }
 .vision .appointments h3 {
@@ -153,19 +210,26 @@ header li a {
   display: -ms-flexbox;
   display: flex;
   background-color: cadetblue;
+  height: 48px;
   height: 3rem;
+  width: 240px;
   width: 15rem;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+  text-indent: 20px;
   text-indent: 1.25rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .vision .philosophy p {
+  margin-top: 32px;
   margin-top: 2rem;
 }
 
 .vision .appointments p {
+  margin-top: 32px;
   margin-top: 2rem;
 }
 footer {
@@ -173,21 +237,29 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: azure;
+  margin-left: 64px;
   margin-left: 4rem;
+  margin-top: 80px;
   margin-top: 5rem;
   width: 960px;
+  height: 128px;
   height: 8rem;
 }
 footer img {
+  height: 24px;
   height: 1.5rem;
+  margin-left: 64px;
   margin-left: 4rem;
 }
 footer h3 {
+  margin-left: 16px;
   margin-left: 1rem;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   body {
     width: 100%;
   }
@@ -198,6 +270,17 @@ footer h3 {
   }
   header h3 {
     color: red;
+  }
+  header nav select {
+    display: inline-block;
+    position: relative;
+    margin-left: 16px;
+    margin-left: 1rem;
+    margin-top: 8px;
+    margin-top: 0.5rem;
+  }
+  header nav ul {
+    display: none;
   }
   .main {
     height: 22rem;
@@ -226,7 +309,11 @@ footer h3 {
     width: 45%;
   }
 }
-@media screen and (max-width: 450px) {
+footer {
+  width: 85%;
+  height: 4rem;
+}
+@media screen and (max-width: 625px) {
   body {
     width: 100%;
   }
@@ -234,20 +321,34 @@ footer h3 {
     margin-top: 0rem;
     margin-left: 0rem;
     width: 100%;
+    height: 48px;
+    height: 3rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   header h3 {
     color: blue;
   }
+  header nav select {
+    display: inline-block;
+    margin-left: 10rem;
+    margin-left: 160px;
+  }
+  header nav ul {
+    display: none;
+  }
   .main {
     height: 17rem;
     background-size: cover;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .main_text {
     position: relative;
     margin-top: 5rem;
-    left: 40%;
-    height: 3rem;
-    width: 20rem;
+    left: 35%;
+    height: 2rem;
+    width: 15rem;
   }
   .main p {
     color: blue;
@@ -259,15 +360,38 @@ footer h3 {
     font-size: .75rem;
   }
   .services {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .services .exam {
+    width: 55%;
+  }
+  .services .fit {
+    width: 55%;
+  }
+  .services .delivery {
+    width: 55%;
   }
   .vision {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .vision .philosophy {
-    width: 75%;
+    margin-top: 25rem;
+    width: 85%;
+  }
+  .vision .philosophy p {
+    margin-top: 1rem;
   }
   .vision .appointments {
+    margin-top: 1rem;
+    width: 85%;
+  }
+  .vision .appointments p {
+    margin-top: 1rem;
+  }
+  footer {
     width: 75%;
+    height: 3rem;
   }
 }
