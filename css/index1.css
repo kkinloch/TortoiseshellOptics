@@ -331,8 +331,8 @@ footer {
   }
   header nav select {
     display: inline-block;
-    margin-left: 7.5rem;
-    margin-left: 160px;
+    margin-left: 2rem;
+    margin-left: 32px;
   }
   header nav ul {
     display: none;
@@ -345,8 +345,8 @@ footer {
   }
   .main_text {
     position: relative;
-    margin-top: 4rem;
-    left: 30%;
+    margin-top: 3rem;
+    left: 25%;
     height: 2rem;
     width: 15rem;
   }
